@@ -1,0 +1,164 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #ff4c61;
+}
+
+/* Header Section */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero .profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.social-links a {
+    color: #ff4c61;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* What I Do Section */
+.what-i-do {
+    background-color: #1c1c1c;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.what-i-do .grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-i-do .card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.what-i-do .card h3 {
+    color: #ff4c61;
+}
+
+.what-i-do .card p {
+    color: #b3b3b3;
+}
+
+/* Resume Section */
+.resume {
+    padding: 50px 0;
+}
+
+.resume-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume .education, .resume .experience {
+    width: 45%;
+}
+
+.resume h3 {
+    color: #ff4c61;
+}
+
+.resume p {
+    color: #b3b3b3;
+}
+
+/* Projects Section */
+.projects {
+    background-color: #1c1c1c;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-card {
+    background-color: #2a2a2a;
+    width: 30%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    color: #ff4c61;
+}
+
+.project-card p {
+    color: #b3b3b3;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial {
+    width: 30%;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial p {
+    color: #b3b3b3;
+    font-style: italic;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    color: #ff4c61;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #b3b3b3;
+}
